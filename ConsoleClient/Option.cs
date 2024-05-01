@@ -26,7 +26,8 @@ namespace ConsoleClient
         public List<Level> UserOperations { get; set; } = new List<Level>();
         public Option()
         {
-            API_URL = "http://localhost:5035/api/User";
+            //API_URL = "http://localhost:5035/api/User";
+            API_URL = "http://localhost:5000/api/User";
             UserAccount = string.Empty;
             Token = string.Empty;
             RefreshToken = string.Empty;
